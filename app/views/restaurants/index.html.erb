@@ -1,0 +1,5 @@
+<ul class="w-25 m-4">
+  <% @restaurants.each do |restaurant| %>
+    <li class="list-group-item d-flex justify-content-between align-items-center mt-2 rounded"><%= restaurant.name %><span class="badge alert-primary badge-pill"> Reviews </span></li>
+  <% end %>
+</ul>
